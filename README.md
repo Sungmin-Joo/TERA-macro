@@ -55,6 +55,6 @@ pip install pyautigui
    
   BSD 3-Clause License 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
 
- [LICENSE](https://github.com/Sungmin-Joo/My_own_project/blob/master/LICENSE)
+ [LICENSE](https://github.com/Sungmin-Joo/TERA_macro/blob/master/LICENSE)
  
  *(오픈소스 라이센스 관련 지식이 부족하여 모듈에 적용되는 라이센스들이 호환되도록 유지함)
