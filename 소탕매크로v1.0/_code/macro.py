@@ -1,21 +1,16 @@
-﻿import pyautogui
+import pyautogui
 import tkinter
 from tkinter import messagebox
 import time
 import threading
+import random
 
 #전역변수 설정
 operating=0
-mac=[]
-point_a=None
-point_b=None
-point_c=None
-
 
 window=tkinter.Tk()
-window.title("TERA_Classic")
+window.title("Joo")
 window.geometry("+950+500")
-#center(window)
 window.resizable(False, False)
 global text1, button1
 
@@ -26,12 +21,14 @@ def demon_macro():
     global operating
     target=0
     while operating:
-        for i in range(60):
-            target = pyautogui.locateOnScreen('./data/button%d.png'%i)
-            if target != None:
-                pyautogui.click(pyautogui.center(target))
-                break
-        time.sleep(1)
+        target = pyautogui.locateOnScreen('./data/button1.png')
+        if target != None:
+            pyautogui.click(pyautogui.center(target))
+            break
+        target = pyautogui.locateOnScreen('./data/button2.png')
+        if target != None:
+            pyautogui.click(pyautogui.center(target))
+            break
 
 #시작 버튼을 누르면 실행됨, 한번 누르는거만 적용되게 하려고 operating flag 사용
 def do_macro():
@@ -57,8 +54,6 @@ def end_macro(event=None):
 
 
 last = tkinter.Frame(window)
-#button1=tkinter.Button(last,text='사진저장', width=13, height = 2,command=set_macro)
-#button1.grid(row=0,column=0)
 button2=tkinter.Button(last,text='시작', width=13, height = 2,command=do_macro)
 button2.grid(row=0,column=1)
 button3=tkinter.Button(last,text='중지(x)', width=13, height = 2,command=end_macro)
