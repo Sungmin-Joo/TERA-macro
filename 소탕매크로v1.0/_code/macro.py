@@ -1,9 +1,9 @@
-import pyautogui
+﻿import pyautogui
 import tkinter
 from tkinter import messagebox
 import time
 import threading
-import random
+
 
 #전역변수 설정
 operating=0
@@ -17,18 +17,18 @@ global text1, button1
 
 first_f = tkinter.Frame(window)
 #매크로 과정을 데몬 프로세스로 실행 (tkinter 특성 상 어쩔 수 없는 선택..)
+#매크로를 종료하면 프로세스도 종료하기 위해서 데몬 프로세스로 설정
 def demon_macro():
     global operating
     target=0
+    cnt=0
     while operating:
-        target = pyautogui.locateOnScreen('./data/button1.png')
+        target = pyautogui.locateOnScreen('./data/button.png')
+        print(cnt)
+        cnt+=1
         if target != None:
             pyautogui.click(pyautogui.center(target))
-            break
-        target = pyautogui.locateOnScreen('./data/button2.png')
-        if target != None:
-            pyautogui.click(pyautogui.center(target))
-            break
+            cnt=0
 
 #시작 버튼을 누르면 실행됨, 한번 누르는거만 적용되게 하려고 operating flag 사용
 def do_macro():
