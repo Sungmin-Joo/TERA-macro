@@ -23,7 +23,6 @@ def demon_macro():
     target=0
     while operating:
         target = pyautogui.locateOnScreen('./data/button.png')
-        cnt+=1
         if target != None:
             pyautogui.click(pyautogui.center(target))
             time.sleep(1)
