@@ -24,7 +24,7 @@
   
 
  ## 2. '.exe' 파일을 실행 시키는 방법  
-
+ * 주의! - LFS를 사용한 '.exe' 파일이기 때문에 저장소를 clone해야 정상 작동 한다.  
  
  ![화면2](https://user-images.githubusercontent.com/46941349/63182647-ff709200-c08d-11e9-82a6-7755fc70dc25.PNG)  
  1. 소탕 환경, 가방 비우기를 설정한다.  
