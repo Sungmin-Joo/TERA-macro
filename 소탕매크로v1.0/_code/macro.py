@@ -21,14 +21,12 @@ first_f = tkinter.Frame(window)
 def demon_macro():
     global operating
     target=0
-    cnt=0
     while operating:
         target = pyautogui.locateOnScreen('./data/button.png')
-        print(cnt)
         cnt+=1
         if target != None:
             pyautogui.click(pyautogui.center(target))
-            cnt=0
+            time.sleep(1)
 
 #시작 버튼을 누르면 실행됨, 한번 누르는거만 적용되게 하려고 operating flag 사용
 def do_macro():
