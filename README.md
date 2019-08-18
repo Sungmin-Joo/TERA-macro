@@ -52,9 +52,9 @@ pip install pyautigui
  * data 폴더와 macro.py를 같은 경로에 위치시키고 코드를 실행한다.  
  * [요기](https://github.com/Sungmin-Joo/Codes_for_Beginners/tree/master/Python) + 킹갓 Google을 이용하여 Python을 공부해서 커스텀을 하면 된다.
  
- ## 버전
+ ## 업데이트 내역
  * v1.0 - 엄청 간단하게 버튼을 찾아서 눌러준다. (버전이라 표기하기도 민망하다)
- 
+ * 1280 x 720 (dpi 240) 보다 더 낮은 해상도에서도 구동 가능하다. 
  ## 정보
 
  주성민(Joo Sung Min) – big-joo_dev@naver.com  
