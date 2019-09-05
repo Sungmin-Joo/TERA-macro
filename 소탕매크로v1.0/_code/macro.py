@@ -1,4 +1,11 @@
-﻿import pyautogui
+﻿'''
+------- 테라m 전용 소탕 매크로 제작 소스코드 ----
+길드원에게 공유하기위해 간단하게 만든 버젼
+설명 : https://github.com/Sungmin-Joo/TERA-macro
+기능을 추가해 보려다가 게임 할 시간이 없어서 포기하게됨.
+->https://github.com/Sungmin-Joo/My-semi-project/tree/master/TERA_Classic_macro_Python_in_window
+'''
+import pyautogui
 import tkinter
 from tkinter import messagebox
 import time
