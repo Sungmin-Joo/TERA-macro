@@ -55,10 +55,15 @@ pip install pyautigui
  ## 업데이트 내역
  * v1.0 - 엄청 간단하게 버튼을 찾아서 눌러준다. (버전이라 표기하기도 민망하다) - 19/08/15
  * 1280 x 720 (dpi 240) 보다 더 낮은 해상도에서도 구동 가능하다. - 19/08/18
- * 게임에 너무 많은 시간이 들어갈 것 같아서 그만두었다. 다른걸 열심히 할 예정이다. - 19/08/20
- ## 정보
-
- 주성민(Joo Sung Min) – big-joo_dev@naver.com  
+ * 게임에 너무 많은 시간이 들어갈 것 같아서 그만두었다. 다른걸 열심히 할 예정이다. - 19/08/20  
+ 
+ 
+ ## Info
+ Name      : 주성민(Joo Sung Min)  
+ E-mail    : big-joo_dev@naver.com  
+ Phone     : 010-2770-4367
+ Univesity : Korea Polytechnic University  
+ 
  버그가 있다면 제보를 부탁 드립니다.  
    
   BSD 3-Clause License 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
