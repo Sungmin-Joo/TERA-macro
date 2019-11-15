@@ -19,7 +19,7 @@ window=tkinter.Tk()
 window.title("Joo")
 window.geometry("+950+500")
 window.resizable(False, False)
-global text1, button1
+text1, button1
 
 
 first_f = tkinter.Frame(window)
